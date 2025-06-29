@@ -32,11 +32,6 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Berlin
-share:
-  twitter: false
-  facebook: false
-  email: true
-  linkedin: true
 
 include:
   - _pages
@@ -98,6 +93,7 @@ defaults:
       read_time: true
       comments: true
       related: true
+      share: true
       show_date: true
   # _pages
   - scope:

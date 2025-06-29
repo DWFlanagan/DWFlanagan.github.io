@@ -1,0 +1,22 @@
+{% if page.share != false %}
+<div class="social-share">
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | uri_escape }}"
+        target="_blank" rel="noopener" class="social-share__link">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+        <span class="sr-only">Share on LinkedIn</span>
+    </a>
+    <!-- Email -->
+    <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ page.url | absolute_url | uri_escape }}"
+        class="social-share__link">
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        <span class="sr-only">Share by Email</span>
+    </a>
+    <!-- Mastodon -->
+    <a href="https://mastodon.social/share?text={{ page.title | uri_escape }}%20{{ page.url | absolute_url | uri_escape }}"
+        target="_blank" rel="noopener" class="social-share__link">
+        <i class="fab fa-mastodon" aria-hidden="true"></i>
+        <span class="sr-only">Share on Mastodon</span>
+    </a>
+</div>
+{% endif %}
