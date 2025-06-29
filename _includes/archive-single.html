@@ -28,7 +28,7 @@
             {% endif %}
         </h2>
         {% include page__meta.html type=include.type %}
-        {% if page.url == "/" or page.url == site.baseurl or page.url == site.baseurl | append: "/" %}
+        {% if page.url == "/" or page.url contains "/page" %}
         <div class="archive__item-content" itemprop="articleBody">
             {{ post.content }}
         </div>
