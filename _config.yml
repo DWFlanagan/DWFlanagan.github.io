@@ -22,6 +22,7 @@ github_username: DWFlanagan
 minimal_mistakes_skin: dark
 search: true
 date_format: "%A, %B %-d, %Y"
+enable_copy_code_button: true
 
 # Build settings
 markdown: kramdown
@@ -107,3 +108,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+atom_feed:
+  hide: true
