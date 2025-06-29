@@ -23,6 +23,7 @@ minimal_mistakes_skin: dark
 search: true
 date_format: "%A, %B %-d, %Y"
 enable_copy_code_button: true
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
@@ -61,6 +62,7 @@ author:
   # name   : "Dave Flanagan"
   avatar : "/assets/images/DWF-icon.jpg"
   bio    : "Generative AI in scholarly publishing"
+  location: "Germany"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
