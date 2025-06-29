@@ -23,7 +23,6 @@ minimal_mistakes_skin: dark
 search: true
 date_format: "%A, %B %-d, %Y"
 enable_copy_code_button: true
-excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
@@ -103,6 +102,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      excerpt_separator: <!--more-->
 
 category_archive:
   type: liquid
