@@ -56,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Dave Flanagan"
+  # name   : "Dave Flanagan"
   avatar : "/assets/images/DWF-icon.jpg"
   bio    : "Generative AI in scholarly publishing"
   links:
@@ -91,6 +91,8 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      date_format: "%A, %B %-d, %Y"
   # _pages
   - scope:
       path: "_pages"
