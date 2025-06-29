@@ -21,6 +21,7 @@ twitter_username: username
 github_username: DWFlanagan
 minimal_mistakes_skin: dark
 search: true
+date_format: "%A, %B %-d, %Y"
 
 # Build settings
 markdown: kramdown
@@ -92,7 +93,6 @@ defaults:
       share: true
       related: true
       show_date: true
-      date_format: "%A, %B %-d, %Y"
   # _pages
   - scope:
       path: "_pages"
