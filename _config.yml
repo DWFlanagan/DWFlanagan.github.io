@@ -57,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  # name   : "Dave Flanagan"
+  name   : "Dave Flanagan"
   avatar : "/assets/images/DWF-icon.jpg"
   bio    : "Generative AI in scholarly publishing"
   location: "Germany"
