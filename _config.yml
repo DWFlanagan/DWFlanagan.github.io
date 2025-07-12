@@ -114,3 +114,13 @@ tag_archive:
 
 atom_feed:
   hide: false
+
+# Analytics - disabled in favor of cookie consent implementation
+# analytics:
+#   provider: google-gtag
+#   google:
+#     tracking_id: "G-XJTPXJ62CE"
+#     anonymize_ip: false
+
+after_footer_scripts:
+  - /assets/js/cookie-consent.js
