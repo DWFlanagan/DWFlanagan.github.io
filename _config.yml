@@ -61,7 +61,7 @@ plugins:
 
 author:
   name   : "Dave Flanagan"
-  avatar : "/assets/images/DWF-icon.jpg"
+  avatar : "/assets/images/DWF-icon.webp"
   bio    : "Generative AI in scholarly publishing"
   location: "Germany"
   links:
