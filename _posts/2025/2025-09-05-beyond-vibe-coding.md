@@ -21,4 +21,4 @@ Addy Osmani has a new book coming out called _Beyond Vibe Coding_. He writes:
 
 Osmani describes practical strategies for collaborating well with AI—moving from quick prototypes to production-ready systems. If you’ve dismissed vibe coding as just a meme, this might change your perspective. It’s about blending speed with structure, creativity with discipline.
 
-Take a look and see what resonates.
+[Take a look](https://beyond.addy.ie) and see what resonates.
