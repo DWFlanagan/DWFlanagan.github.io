@@ -1,5 +1,5 @@
 ---
-title: "Python: The Documentary | An origin story"
+title: "Python: The Documentary"
 categories:
   - Blog
 tags:
